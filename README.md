@@ -6,7 +6,7 @@
     - If you are extracting profiles at different position, you must count the maximum number of digits in the whole and decimal parts
     - Example : 
         - if you have profiles at x = [1.2346, 23.4, 120]
-                the maximum number of the whole parts is 3 and 4 for the decimal parts
+                the maximum number of digits in the whole parts is 3 and 4 for the decimal parts
         - Then all lines must be called "x_" then 3+4=7 digits
         - We will have "x_0012346" "x_0234000" "x_1200000"
         - This is important so that Fluent orders the profiles
@@ -31,7 +31,7 @@
 
 ## How to start
 - put all the scripts in the same directory
-- a "data" is given with an example of the files that need to be extracted from Fluent
+- a "data/" folder is given with an example of the files that need to be extracted from Fluent
 - You can run the script using the files in "data" to get familiar with the code
 
 ## Important information
