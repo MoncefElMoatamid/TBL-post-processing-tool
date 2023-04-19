@@ -11,7 +11,7 @@
             - Then all lines must be called "x_" then 3+4=7 digits
             - We will have "x_0012346" "x_0234000" "x_1200000"
             - This is important so that Fluent orders the profiles
-    - You can also name your "lines" on Fluent "x_1", "x_2" BUT the corresponding position must be in increasing order
+    - You can also name your "lines" on Fluent "x_1", "x_2" ... BUT the corresponding position must be in increasing order
 - Save profiles as a xy file
         check the box "write to file"
         click on "write"
